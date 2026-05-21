@@ -18,7 +18,7 @@ Current formula:
 - `packly`: Packly CLI
 - `packly-mcp`: local stdio MCP server for Claude Code, Codex, and Cursor
 
-Supported binaries in `v0.59.0`:
+Supported binaries in `v0.59.1`:
 
 - macOS Apple Silicon
 - Linux x64

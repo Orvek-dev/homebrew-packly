@@ -5,8 +5,8 @@ class Packly < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Orvek-dev/packly-developer-preview/releases/download/v0.59.0/packly-developer-preview-v0.59.0-aarch64-apple-darwin.tar.gz"
-      sha256 "bf0a6bb2dcc424a779ba51010b85f43cc8694f538f5514859a907aced8834bea"
+      url "https://github.com/Orvek-dev/packly-developer-preview/releases/download/v0.59.1/packly-developer-preview-v0.59.1-aarch64-apple-darwin.tar.gz"
+      sha256 "9a5aff932f4d30e5f18b7d90266882bb60cc5a4d61604860527eadad52bad11a"
     end
 
     on_intel do
@@ -16,8 +16,8 @@ class Packly < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/Orvek-dev/packly-developer-preview/releases/download/v0.59.0/packly-developer-preview-v0.59.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c0f7f84523c7e78a484e9380a027492a0ab988e7e76265843c6641c9b3421efc"
+      url "https://github.com/Orvek-dev/packly-developer-preview/releases/download/v0.59.1/packly-developer-preview-v0.59.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "9370cfdafffa8a4f9479983bb48f2c13f638803b54fea11f557f26ff765e7f68"
     end
 
     on_arm do
@@ -31,8 +31,8 @@ class Packly < Formula
   end
 
   test do
-    assert_match "packly 0.59.0", shell_output("#{bin}/packly --version")
-    assert_match "packly-mcp 0.59.0", shell_output("#{bin}/packly-mcp --version")
+    assert_match "packly 0.59.1", shell_output("#{bin}/packly --version")
+    assert_match "packly-mcp 0.59.1", shell_output("#{bin}/packly-mcp --version")
     assert_match "mcp ok: true", shell_output("#{bin}/packly mcp status --mcp-bin #{bin}/packly-mcp")
   end
 end
