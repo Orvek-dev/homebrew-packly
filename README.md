@@ -1,6 +1,8 @@
 # Homebrew Tap For Packly
 
 This tap installs Packly Developer Preview from public GitHub release binaries.
+The binaries are distributed under the Packly Developer Preview License in the
+public distribution repository.
 
 ```sh
 brew tap Orvek-dev/packly

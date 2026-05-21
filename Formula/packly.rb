@@ -6,7 +6,7 @@ class Packly < Formula
   on_macos do
     on_arm do
       url "https://github.com/Orvek-dev/packly-developer-preview/releases/download/v0.59.1/packly-developer-preview-v0.59.1-aarch64-apple-darwin.tar.gz"
-      sha256 "9a5aff932f4d30e5f18b7d90266882bb60cc5a4d61604860527eadad52bad11a"
+      sha256 "53452c4bac6e934e952cf619bcc33928ee9eee65cf8d9bf0271a657314d834fc"
     end
 
     on_intel do
@@ -17,7 +17,7 @@ class Packly < Formula
   on_linux do
     on_intel do
       url "https://github.com/Orvek-dev/packly-developer-preview/releases/download/v0.59.1/packly-developer-preview-v0.59.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9370cfdafffa8a4f9479983bb48f2c13f638803b54fea11f557f26ff765e7f68"
+      sha256 "a4830f89e6eaf8985616bcd9cec9a0c5e8a869ab0b8090e3b7da8b0be22cfd50"
     end
 
     on_arm do
